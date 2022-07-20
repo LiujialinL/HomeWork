@@ -1,9 +1,9 @@
 $primary : #409eff !default;
-$danger : #e6a23c;
-$success : #00d100;
-$warning : #f56c6c;
+$danger : #e6a23c !default;
+$success : #00d100 !default;
+$warning : #f56c6c !default;
 
-.ele-button{
+.yang-button{
   border-width : 1px;
   border-style: solid;
   border-color : #dcdfe6;
@@ -15,7 +15,7 @@ $warning : #f56c6c;
   color: #606266;
   cursor: pointer;
 
-  + .ele-button{
+  + .yang-button{
     margin-left : 14px;
     margin-bottom: 10px;
   }
@@ -29,24 +29,24 @@ $warning : #f56c6c;
   .icon-prefix { margin-right: 10px; }
   .icon-suffix { margin-left: 10px; }
 }
-.ele-button-medium{
+.yang-button-medium{
   height : 38px;
 }
-.ele-button-small{
+.yang-button-small{
   padding: 0 15px;
   height: 32px;
   font-size: 12px;
 }
-.ele-button-mini{
+.yang-button-mini{
   padding: 0 15px;
   height: 28px;
   font-size: 12px;
 }
-.ele-button[disabled]{
+.yang-button[disabled]{
   cursor: not-allowed;
   opacity: 0.5;
 }
-.ele-button-primary{
+.yang-button-primary{
   background-color: $primary;
   border-color : $primary;
   color : #fff;
@@ -55,7 +55,7 @@ $warning : #f56c6c;
     color : $primary;
   }
 }
-.ele-button-success{
+.yang-button-success{
   background-color : $success;
   border-color :  $success;
   color : #fff;
@@ -64,7 +64,7 @@ $warning : #f56c6c;
     color : $success;
   }
 }
-.ele-button-danger{
+.yang-button-danger{
   background-color : $danger;
   border-color :$danger;
   color : #fff;
@@ -73,7 +73,7 @@ $warning : #f56c6c;
     color : $danger;
   }
 }
-.ele-button-warning{
+.yang-button-warning{
   background-color: $warning;
   border-color : $warning;
   color : #fff;
@@ -86,7 +86,7 @@ $warning : #f56c6c;
 /*** 圆角 */
 .is-round{border-radius: 100px;}
 /**块级按钮*/
-.ele-button-block{
+.yang-button-block{
   display: block;
   width: 100%;
   padding: 0;
